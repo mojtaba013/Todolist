@@ -1,0 +1,73 @@
+body {
+  /* font-size: 8rem; */
+  background-color: rgb(231, 236, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: green; */
+  margin: 0 auto;
+  gap: 1rem;
+}
+input ,select{
+  outline: none;
+  padding: 1rem;
+  
+}
+input{
+    flex: 1;
+}
+.sex {
+  position: relative;
+  display: flex;
+  width: 25rem;
+}
+.add {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 2.5rem;
+}
+
+.todolist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  /* background-color: red; */
+  /* justify-content: space-between; */
+}
+
+.todolist-container .tasks {
+  width: 25rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: cadetblue;
+  
+}
+
+.fa-square-check
+{
+  color: azure;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
